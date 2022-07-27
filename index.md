@@ -1,6 +1,6 @@
 # r9y.dev
 
-Welcome to [r9y.dev]
+Welcome to <r9y.dev>
 Where we put the 9 in reliability.
 
 [r9y-map](https://r9y.dev)
