@@ -9,5 +9,5 @@ Welcome to [r9y.dev](https://r9y.dev)
 
 ---
 
-- [file an r9y-map issues](https://github.com/r9y-dev/r9y-map/issues)
+- [file any r9y-map issues](https://github.com/r9y-dev/r9y-map/issues)
 - [join our discord](https://discord.com/invite/7exuFDbsrx)
