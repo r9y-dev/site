@@ -1,8 +1,6 @@
 title: r9y.dev
 description: A user community looking to define the capabilities behind Internet service reliability.
 remote_theme: mmistakes/minimal-mistakes
-plugins:
-  -  jekyll-include-cache
 
 # Plugins (previously gems:)
 plugins:
@@ -19,3 +17,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+analytics:
+  provider: google
+  google:
+    tracking_id: G-DLHPSNJ96L
