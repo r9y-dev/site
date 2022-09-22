@@ -17,4 +17,18 @@ bundle install
 bundle exec jekyll s -w --verbose --livereload
 ```
 
-Then vist [http://localhost:4000/](http://localhost:4000/) in a browser.  The site should automatically reload as you change the content.
+If you're running on a remote instance you can run to bind to all interfaces:
+
+```bash
+bundle install
+bundle exec jekyll s -w --verbose --livereload --host=0.0.0.0
+```
+
+Then vist [http://localhost:4000/](http://localhost:4000/), or [http://yourhostname:4000](http://yourhostname:4000) in a browser.  The site should automatically reload as you change the content.
+
+Note, this requires the ruby and ruby-dev packages installed, eg. on Ubuntu:
+
+```bash
+apt install ruby ruby-dev ruby-bundler
+```
+
