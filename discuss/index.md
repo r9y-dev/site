@@ -12,9 +12,9 @@ header:
       url: "https://calendar.google.com/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyMTA0MjBUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL"      
 ---
 #### We meet virtually, on the third Tuesday of every month.
-9:30am US Pacific / 12:30pm US Eastern
+9:30am US Pacific / 12:30pm US Eastern [[Add to calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyMTA0MjBUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL)]
 
-[Add to calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyMTA0MjBUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL)
+If a meeting is now in session, you can <a href="//meet.google.com/kdk-hnmf-yjp" class="btn btn--info">Join with Google Meet</a>
 
 ## About
 This group brings together operations and development engineers from different organizations to discuss challenges and solutions around engineering for reliability. Share successes and failures, learn about best practices, and meet others who are also on a journey to implement a sustainable practice of reliability engineering.
