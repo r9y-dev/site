@@ -35,12 +35,12 @@ This conversation is what you choose it to be! Participants are welcome to to pr
 * Any useful SLOs beyond Availability + Latency?
 
 ## Summaries of recent discussions
-- [2022-December](https://github.com/r9y-dev/site/files/10271822/sessionsummary-20Dec2022-17-35-00-PM.pdf)
-- [2022-November](https://github.com/r9y-dev/site/files/10271820/sessionsummary-15Nov2022-17-35-00-PM.pdf)
-- [2022-October](https://github.com/r9y-dev/site/files/10271819/sessionsummary-18Oct2022-16-35-00-PM.pdf)
-- [2022-September](https://github.com/r9y-dev/site/files/10271815/sessionsummary-20Sep2022-16-40-00-PM.pdf)
-- [2022-August](https://github.com/r9y-dev/site/files/10271817/sessionsummary-16Aug2022-16-35-00-PM.pdf)
-- [2022-July](https://github.com/r9y-dev/site/files/10271811/sessionsummary-19Jul2022-16-30-00-PM.pdf)
+- [2022-December](sessionsummary-20Dec2022-17-35-00-PM.pdf)
+- [2022-November](sessionsummary-15Nov2022-17-35-00-PM.pdf)
+- [2022-October](sessionsummary-18Oct2022-16-35-00-PM.pdf)
+- [2022-September](sessionsummary-20Sep2022-16-40-00-PM.pdf)
+- [2022-August](sessionsummary-16Aug2022-16-35-00-PM.pdf)
+- [2022-July](sessionsummary-19Jul2022-16-30-00-PM.pdf)
 
 
 ## Join in!
