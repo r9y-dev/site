@@ -26,13 +26,22 @@ This group brings together operations and development engineers from different o
 *Also, [the mailing list](https://groups.google.com/g/reliability-discuss) is available any time for asynchronous discussion.*
 
 ## Topics
-This conversation is what you choose it to be! Participants are welcome to to propose any topic, and whatever gets votes will be discussed. Of course, it is a reliability group, so here are some typical topic areas:
+This conversation is what you choose it to be! Participants are welcome to to propose any topic, and whatever gets votes will be discussed. Here are some topics from recent discussions:
 
-  * Site Reliability Engineering (SRE) and other approaches to building and maintaining reliable systems
-  * Monitoring, observability, and incident response
-  * Toil: identifying and reducing it
-  * Service Level Indicators and Objectives (SLIs/SLOs)
-  * Culture change, blamelessness, communication
+* Alerting philosophy--how many is too many, what medium do you use and why, and how do you scope the audience for different types of alerts?
+* Is platform engineering becoming part of/intersecting with reliability roles/topics?
+* What are the best practices for doing capacity management?
+* How can we properly use postmortem reports and avoiding making them a /dev/null bucket for solved issues?
+* Any useful SLOs beyond Availability + Latency?
+
+## Summaries of recent discussions
+- [2022-December](sessionsummary-20Dec2022-17-35-00-PM.pdf)
+- [2022-November](sessionsummary-15Nov2022-17-35-00-PM.pdf)
+- [2022-October](sessionsummary-18Oct2022-16-35-00-PM.pdf)
+- [2022-September](sessionsummary-20Sep2022-16-40-00-PM.pdf)
+- [2022-August](sessionsummary-16Aug2022-16-35-00-PM.pdf)
+- [2022-July](sessionsummary-19Jul2022-16-30-00-PM.pdf)
+
 
 ## Join in!
 
