@@ -35,6 +35,7 @@ This conversation is what you choose it to be! Participants are welcome to to pr
 * Any useful SLOs beyond Availability + Latency?
 
 ## Summaries of recent discussions
+- [2023-January](sessionsummary-17Jan2023-17-35-00-PM.pdf)
 - [2022-December](sessionsummary-20Dec2022-17-35-00-PM.pdf)
 - [2022-November](sessionsummary-15Nov2022-17-35-00-PM.pdf)
 - [2022-October](sessionsummary-18Oct2022-16-35-00-PM.pdf)
