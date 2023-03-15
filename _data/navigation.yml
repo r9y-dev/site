@@ -1,3 +1,7 @@
 main:
   - title: "Discuss"
     url: "/discuss"
+  - title: "Watch"
+    url: "/watch"
+  - title: "Chat"
+    url: "/chat"
