@@ -36,6 +36,7 @@ This conversation is what you choose it to be! Participants are welcome to to pr
 * How can we properly use postmortem reports and avoiding making them a /dev/null bucket for solved issues?
 
 ## Summaries of recent discussions
+- [2023-July](sessionsummary-18Jul2023-16-35-00-PM.pdf)
 - [2023-March](sessionsummary-21Mar2023-16-35-00-PM.pdf)
 - [2023-February](sessionsummary-21Feb2023-17-40-00-PM.pdf)
 - [2023-January](sessionsummary-17Jan2023-17-35-00-PM.pdf)
