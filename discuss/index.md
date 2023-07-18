@@ -28,6 +28,7 @@ This group brings together operations and development engineers from different o
 ## Topics
 This conversation is what you choose it to be! Participants are welcome to to propose any topic, and whatever gets votes will be discussed. Here are some topics from recent discussions:
 
+* Reliability scanning & recommendation tools
 * Dashboards -- useful, useless, somewhere in between?
 * How to transform a traditional operations team into SRE, in a traditional enterprise
 * Alerting philosophy--how many is too many, what medium do you use and why, and how do you scope the audience for different types of alerts?
