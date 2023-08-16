@@ -39,6 +39,7 @@ This conversation is what you choose it to be! Participants are welcome to to pr
 ## Summaries of recent discussions
 - [2023-August](2023-august.txt)
 - [2023-July](sessionsummary-18Jul2023-16-35-00-PM.pdf)
+- [2023-April](sessionsummary-18Apr2023-16-35-00-PM.pdf)
 - [2023-March](sessionsummary-21Mar2023-16-35-00-PM.pdf)
 - [2023-February](sessionsummary-21Feb2023-17-40-00-PM.pdf)
 - [2023-January](sessionsummary-17Jan2023-17-35-00-PM.pdf)
