@@ -1,0 +1,45 @@
+r9y-discuss Date and Time: 15 August 2023 17:31 (UTC+00:00)
+
+Topics discussed:
+- How has r9y changed since 2020? Any predictions that came true? Surprises?
+- hot take "nothing has really improved" - apart from talking
+- another take: awareness (words) is up, if not real understanding, action.
+- was: Ops with a new name
+- now: more like the book!
+- eg SLOs can be useful in theory, but sometimes not actually/directly useful ! is there a discussion happening around this?
+- are SLOs just a proxy/abstraction for "measurement" ?
+
+what reliability/SRE conferences are you looking forward to next year?
+- remote > travel !
+- gophercon! https://www.gophercon.com/ 
+- p99conf (1st edition!) https://www.p99conf.io/
+- DORA Community day at DOES Las Vegas: https://members.itrevolution.com/register/dora/
+- Chaos Carnival https://chaoscarnival.io/ 
+- SREcon(s) https://www.usenix.org/srecon 
+- LFIconf https://www.learningfromincidents.io/learning-from-incidents-conference-2023 
+
+any experience with r9y in air gap envs?
+- flash drives and sneakernet!
+- art of slo, distributed image server - links go here.
+- removal of toil !
+- To test airgapped environments for reliability I've heard the US gov't has experimented with https://litmuschaos.io/ but this is only for testing not CI/CD.
+- Target Corp built a nice platform called TAP. This is an old presentation but goodie: https://www.youtube.com/watch?v=cnHfK4MZA2Y&t=1260s They now use TAP to deploy/release to multiple cloud providers, onpremises, and edge....all while the developer doesn't have to think much about the workload the app is going to
+
+Do you have a Terralith? How did you get there, and what now?
+- yes! it happens.
+- maybe this is due to the tool (tf).
+- "pink unicorn" thinking - project an ideal world
+- tools need to do the user validation, is this actually solving the problem.
+- can come from team silos. infra team has one pipeline for all things.
+- platform teams can suffer similarly, release platform too slowly, with big bang. ouch. 
+- as a solution? SOA - provide hooks to service owning developers. 
+- does "my terraform" for my service really need to be mine? esp if i dont understand it. thus
+- goes back to a central team who creates a 'lith
+- ETOOMUCHSTUFF
+- why reduce understanding of production? controls / knowledge? if it needs so much custom knowledge, adapt the tools. make it less hostile. reduce need for an interface team.
+- instead of ops helping dev make good choices, a bad model might be "here go play with this". not abstracted enough? just a weird language.
+- functions > modules.
+- keptn.sh
+
+"Is platform engineering becoming part of/intersecting with reliability roles/topics?" Is Platform Reliability Engineering a thing now?
+- do all org desires need to be a role?
