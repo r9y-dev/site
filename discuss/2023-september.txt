@@ -1,0 +1,99 @@
+Topics discussed:
+For an SRE team to take on a new system, what docs are needed? What have you seen work well?
+- often when things go wrong its because something was "left out" of the mental model. what do you like to have written down? what works?
+- architecture overview, system context, flows / user journeys. what should i be measuring?
+- biz usage? what is it *doing*, what users.
+- show your incidents / postmortems. learn from your mistakes!
+- learning from incidents (not "about")
+- docs get stale!
+- dashboards, when were they "true" ?
+- slack! zoom back over history
+- But be wary about Slack retention period! Slack messages / thread should be ported out to an Incident Management Document about the outage
+- depends on your org structure, existing norms. (eg existing SRE team vs single NOC)
+
+Reliability vs cost - what is your org doing right now?
+- cost vs price as compared to revenue/profit. hard questions!
+- what about the "left" side? (Dev) also? consistent, clear direction and tradeoffs.
+- "how reliable does the service need to be to be competitive?”
+- “How much un-reliability can we accept with the current design?”
+- “How much are we willing to spend to achieve those goals"
+- consider criticality of systems, "what can we downscale?" (at what price)
+- people vs infra costs aren't always super rational :(
+
+incident meta analysis
+- digging through looking for patterns, howto?
+- LFI - "just ask people" ! -- beware greenwashing (dont want to write it down). but they'll tell you in real world.
+- beware losing the details when distilling down to metrics! need a story not a number.
+- https://robm.me.uk/2021/04/thermocline-of-truth/ 
+- "ICD for IT" - helping to diagnose common failure modes?
+- https://www.who.int/standards/classifications/classification-of-diseases 
+- incident metrics for a service as just another source of metrics for that service.
+- cite https://www.verica.io/blog/mttr-is-a-misleading-metric-now-what/
+- https://static.googleusercontent.com/media/sre.google/en//static/pdf/IncidentMeticsInSre.pdf 
+
+What are some new technologies you're working with and what problem are they solving for you?
+- OpenTF ;)
+- golang
+- chaos engineering books
+- https://github.com/dastergon/awesome-sre 
+- look into MLOps also!
+- consider emphasis on speed and domain changes vs infra/scaling changes over time. (early vs late product) 
+- troubleshooting methods? "whats changed?" -- runwhen.com 
+- common tools against custom apps is hard. determining what the consequences of a metric
+- without a lot of context is really difficult.
+
+Who's going to SRECon EMEA?
+- October in Dublin 
+- https://www.usenix.org/conference/srecon23emea 
+- SREmuc Meetup Munich next Tuesday
+
+how are you using LLMs today? (for r9y stuff)
+- generalize the point that im making, when communicating what has happened, etc.
+- give me ideas, be creative. helps me try not to be biased. shows my biases or things ive ignored. using it to search and discover.
+- i have seen quite a few companies were the Ops team is using ChatGPT to look for solutions. Some have created bots to automate this.
+- And yes, very concerned about the impact (enterprise, truuth, securitym etc)
+- someone to talk to (rubber duck!)
+- https://ubisglobal.com/blog/get-a-rubber-duck-how-to-make-your-study-time-more-effective/ 
+- LLM as pair programmer, help improve in ways i wouldnt have been able to on my own.
+
+Is Google getting rid of SRE?
+- trite: no
+- longer: SRE is always evolving
+- principles vs practice always changing, different groups do it in different ways. even within google
+
+Chat log:
+Are there similar meetups like this?
+The more the merrier
+not a lot! there should be more :)
+this is my first, but...yes. ;) there's a good devops oriented lean coffee every friday at 11am ET
+Send a link over ;)
+and there's a cto-coffee and fractional cto-coffee that are pretty well attended.
+https://www.meetup.com/seattle-coffeeops/events/295847219/
+it's PNW heavy but not exclusive
+is this discord URL on the r9y.dev site ?
+https://r9y.dev/chat
+https://bit.ly/r9y-coffee
+SRE was *born* of cost optimization!
+I find three questions that are useful when talking about reliability is: "how reliable does the service need to be to be competitive?” “How much un-reliability can we accept with the current design?” “How much are we willing to spend to achieve those goals"
+hot take: was SRE adoption a zero interest rate phenomenon?
+Unplanned maintenance windows
+Incidents never go out of fashion though!
+Here's how Shopify Dev ops uses Slack for escalations https://www.youtube.com/watch?v=lYhS3gCINGs
+The Slack channel becomes your documentation
+I had not considered Slack for this. Interesting!
+(can't comment on coffee) docs as cache of knowledge. known issues that haven't been fixed yet. this knowledge is always expiring.
+note that arch diagrams can expire!
+https://robm.me.uk/2021/04/thermocline-of-truth/ !
+Anyone have opinions on this book? https://www.oreilly.com/library/view/reliable-machine-learning/9781098106218/?_gl=1*1381mp2*_ga*MTI0NDM4MTczMC4xNjk1MTQzNDg1*_ga_092EL089CH*MTY5NTE0MzQ4NS4xLjEuMTY5NTE0MzQ5MS41NC4wLjA.
+i.e. who cares if the queue is getting a bit long if people aren't complaining about it
+Worth a read of Dr Laura's article: https://www.usenix.org/publications/loginonline/seeing-sre - tooling covers the "Techne" i.e. high level abstract knowledge, but not the "Metis" - contextual knowledge
+"who cares if the queue is getting a bit long if people aren't complaining about it" -- you wouldn't alert on it, but it might be a valuable clue when you are investigating an incident.
+i have seen quite a few companies were the Ops team is using ChatGPT to look for solutions. Some have created bots to automate this.
+And yes, very concerned about the impact (enterprise, truuth, securitym etc)
+FYI https://ubisglobal.com/blog/get-a-rubber-duck-how-to-make-your-study-time-more-effective/
+https://www.usenix.org/conference/srecon23emea
+10–12 October, 2023
+DORA COMMUNITY SUMMIT!!! October 2 in Las Vegas.
+dora.community/summit
+https://itrevolution.com/product/devops-enterprise-summit-las-vegas-2023/
+Always be learning!
