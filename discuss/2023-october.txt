@@ -1,0 +1,24 @@
+Date and Time: 18 October 2023 - All items on the board 15:27 (UTC+00:00)
+Facilitator: Steve McGhee
+
+Topics discussed:
+Thoughts on OpenTofu ? For terraform, and the general impact on OpenSource (projects and companies)
+- https://opentofu.org/
+- https://open.spotify.com/episode/7ioYHDDUDHmynq8okgSnmZ?si=1abd9c524afb45f0
+- Consumer vs "repackagers" more affected
+- surprising lack of drama / discussion seems common.
+
+Still feeling reverberations from layoffs. Has anyone seen leaders follow their reduction in force with a reduction in the scope of work
+- Twitter: "Complex systems are heavily and successfully defended against failure."
+
+How does your organization promote culture change using technology?
+
+Log Monitoring: Are you doing it? Are you alerting on it? If not, how do you discover
+- that there are errors/exceptions being thrown?
+- beware of scale! stops being effective at some point (sampling, metrics extraction instead)
+
+https://sloth.dev/ -- thoughts? Experiences? Considering adopting it.
+- https://github.com/pyrra-dev/pyrra
+- https://github.com/google/slo-generator
+- https://openslo.com/
+- https://keptn.sh/docs/1.0.x/reference/files/slo/
