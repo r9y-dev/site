@@ -32,3 +32,12 @@ Note, this requires the ruby and ruby-dev packages installed, eg. on Ubuntu:
 apt install ruby ruby-dev ruby-bundler
 ```
 
+you may also need to run 3.1.3 (3.2 doesn't work)
+
+first ensure `rbenv`` is working
+
+```bash
+rbenv install 3.1.3
+rbenv local 3.1.3
+```
+

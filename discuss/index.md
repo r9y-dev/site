@@ -8,12 +8,12 @@ header:
   overlay_filter: "0.4"
   overlay_image: /assets/images/gizmo.jpg
   actions:
-    - label: "🗓️ Add to Calendar"
+    - label: "🗓️ Add to Google Calendar"
       url: "https://calendar.google.com/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyMTA0MjBUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL"      
 ---
 #### We meet virtually, on the third Tuesday of every month.
 
-9:30am US Pacific / 12:30pm US Eastern [[Add to calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyMTA0MjBUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL)]
+9:30am US Pacific / 12:30pm US Eastern [[Add to Google Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyMTA0MjBUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL)] [[Download .ics](r9y-discuss-invite.ics)]
 
 If a meeting is now in session, you can <a href="//meet.google.com/kdk-hnmf-yjp" class="btn btn--info">Join with Google Meet</a>
 
