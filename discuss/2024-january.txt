@@ -1,0 +1,22 @@
+Date and Time: 16 January 2024
+
+Topics discussed:
+
+Oncall Handovers
+- ref Chad Todd's talk at SREcon23
+- https://www.usenix.org/conference/srecon23americas/presentation/todd
+- handoff meeting --> create tasks to improve system + severity/urgency (eg alert nonactionable)
+
+Test to Production Environments. To have reliable code delivery, does anyone leverage a production alpha environment?
+- Option: Preview mode for customers to opt-in, try new things.
+- we use our own CIO / IT organization as Client-0, before we open to clients. For some critical services, we ask any/all employees to hammer the system in a defined window
+
+Hiring market right now?
+
+What AI tools could we use to improve reliability?
+- idea: start with the data! what do you have already?
+- Similar Incidents, commands, culprits. Risk Assessments of a given release.
+- https://www.usenix.org/conference/srecon19emea/presentation/underwood
+- Anomoly Detection
+- is this already AI, or simply statistics ?
+- Story Generation: it might be right? at least a good place to start

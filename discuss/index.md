@@ -41,6 +41,7 @@ This conversation is what you choose it to be! Participants are welcome to to pr
 
 ## Summaries of recent discussions
 
+* [2024-January](2024-january.txt)
 * [2023-October](2023-october.txt)
 * [2023-September](2023-september.txt)
 * [2023-August](2023-august.txt)
