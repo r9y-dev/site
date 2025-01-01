@@ -1,0 +1,24 @@
+Date and Time: 17 December 2024
+
+Topics discussed:
+
+OpenAI Kubernetes failure Dec 11
+https://status.openai.com/incidents/ctrsv3lwd797
+[Quick takes on the recent OpenAI public incident write-up – Surfing Complexity](https://surfingcomplexity.blog/2024/12/14/quick-takes-on-the-recent-openai-public-incident-write-up/)
+- It was fun to use a well-written incident report from a different company to ask questions of our local cluster team
+- Control Plane can create brittleness. E.g. people claim about AZ robustness, but often AWS control planes run in us-east-1, so even if people "don’t deploy to us-east-1" they can still be vulnerable to failures in that AWS region because of AWS control plane
+- Designers often overlook the control plane when designing robustness for their systems
+- Question to stimulate wider design thinking: "if you lost access to the system, how would you restart with just a key to the datacenter?"
+
+LLM-based automation to manage infrastructure and its impact on safety
+- Known uses of LLMs have been a buddy or assistant
+- Seen proposals to have LLM power decision making. Haven’t seen stories of anyone doing this
+- We know LLMs have non-deterministic behaviors.
+- When this happens, what will be the consequences for safety and reliability? For understanding the incidents?
+
+Did seasonal holiday spending affect anyone?
+- could automate scaling. but not databases. cannot reshard under load; that requires additional capacity. 
+- Use historical, not current data to predict seasonal load + lead time.
+incidents might be more damaging to reputation and revenue than the cost of over-provisioning
+- live adjustment to prices is similar to control plane capabilities on top of the primary functionality
+
