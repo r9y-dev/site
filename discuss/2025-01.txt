@@ -1,0 +1,23 @@
+Date and Time: 2025-01-21 12:30p ET
+
+Incident Response Dream Team (like the (A-Team)[https://en.wikipedia.org/wiki/The_A-Team] 1980s US TV show)
+- LeadDev discussion panel building your dream incident response team February 12 at 12pm ET and will last for 45 minutes on Zoom
+
+DB admin automation. How to run db cost effectively in Cloud? How to add value as a DBA?
+- eg: amazon can suggest under- or over-provisioned and you can tune the scale-up factor which has a lag. standard lag computation?
+- work backwards from acceptable performance (eg: 200ms) and SLO budget (99%) and see how often you expect to need to scale up and how long that takes (eg: 5 min). Can your business afford 10 mins (eg: 2x of 5 min warm up time) of "too slow" each time period?
+
+Proactive reliability efforts (eg: chaos engineering)
+- do engineering to get data on the "failure mode" behavior
+- scream test for sunsetting old systems (be sure to listen)
+- caution: test long enough for people to notice periodic (monthly) batch work, assuming anyone is watching.
+- if there is no test environment, expect tests in production (blameless)
+
+Do reliable systems endure?
+- reliability is not just in the build system; it is also in the operators who respond
+- if you have new operators, the same system may no longer be reliable
+- abstraction and automation (eg: k8s configs and build systems) may make it harder to understand the elements of the system. eg: build may encode a bunch of business knowledge.
+- microservices allow separation of complexity, but increase global complexity eg: CNCF
+- adding abstractions adds knowledge propagation lag for reasoning about the system
+- you want resilience to tolerate conceptual mismatch (not reliability)
+
