@@ -1,0 +1,45 @@
+Date and Time: 2025-02-18 12:30p ET
+
+When to use the terms Resilience and Reliability
+- From academic resilience engineering looks at resilience in terms of what people do to adapt; reliability is history; robustness is engineered rebound (planned)
+ * Robustness: non-human systems designed or built to sustain target properties
+ * Resilience: what people do to respond to unanticipated or unplanned threats
+ * Reliability: Data about how a system has performed in the past (wherever you decide to draw the boundary)
+
+The act of reflection after an incident stabilizes. 
+- What do you think of when you think of reflection after the incident stabilizes, who engages with it, is it important, do you wish you saw more of it, what practices have you seen that helps
+- Valuable sometimes
+- Not valuable according to some incentive structures as penalty. Some teams do it under the radar for intrinsic value, despite incentives.
+make space for diagnosis. is the problem important? space is important to reflect.
+- time pressure gathering data for diagnosis is an alternative to getting out of impact
+- incentive reflection of leadership values, optimizing shorter term sales vs longer term education
+
+Incidents as negative variation from plan, or learn from incident to improve system to higher performance
+- opportunity cost. invest in resilience for reduced attrition, smaller impact of incidents, improve value-producing effectiveness of the system. growing expertise.
+- top-down view is negative from target; bottom up might suggest more realistic targets
+- more adaptable 
+
+Using Raspberry Pi 5 as a desktop.
+- 2x 4k display outputs
+- need snowflake power supply for 5A
+- hdmi mic passthrough not working
+- Chrome can't run on Debian to sync google profiles
+- trading platform supposedly exists
+- Useful for baking bread with thermocouples for temperature
+- microsd v30 slower than traditional disks
+- Chromebooks are usable
+
+glibc 2.35 to 2.36 or 2.40 upgrade. 
+- segfault on ubuntu 22. ignore package dependencies. triggered by security patches for mysql 8.032 in a hybrid acquisition/merger datacenter environment
+- sorry, no glibc expertise here. 
+- trade datacenter upgrade problems for cloud-hosted problems?
+
+How is the job market for SRE influenced by AI arrival?
+- if a company bets on AI instead of people do you want to be an SRE there?
+- AI is very confident, similar to some humans
+- AI coding assistant is common, but not SRE assistant yet
+- SRE is to mitigate risk, not deploy software. The system contains undocumented boundaries, undesirable for SRE to regurgitate the same operations at high speed.
+- Liability for AI decisions at high speed, or Full Self Driving. A judge will eventually determine at trial. Prove whether a problem was a design flaw.
+
+- imagine patterns of diagnostic response, not full automation.
+
