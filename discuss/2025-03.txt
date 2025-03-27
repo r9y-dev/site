@@ -1,0 +1,20 @@
+Date and Time: 2025-03-18 12:30p ET
+
+Idea to drop malicious scanning traffic using simple header presence.
+- Google cloud load balancer allows drop of requests which are missing a required header.
+- alternative suggestion: private DNS server with high flux. poses connectivity problems. Rotate DNS when it gets hammered.
+- actual customers are also public hospitals and large use cases, so rate limiting is not ok
+- still using IPv4
+- difficulty finding needle in haystack of noise
+- also interested in reducing cost
+- bad actor humans require human counter measures
+- cloud armor costs $, can we drop traffic beforehand?
+
+raspberry pi 5 desktop experiment
+- Joined zoom by phone, still no mic for joining from the pi yet. using an action cam. using NVMe is faster than SSD
+
+How to work with IoT blue/green fleet deployments in a personal mobility context?
+- k8s gateway gcp tcp endpoints, load balancer in front.
+- hard to split into different pods because TCP connections are ephemeral, thousands of devices, no affinity
+- It takes tens of minutes. Can we go faster?
+
