@@ -1,0 +1,51 @@
+Date and Time: 2025-04-15 12:30p ET
+
+How to assess the skillset of an SRE (interview-focused).
+ - What are responsibilities (not at Google)?
+ - Coding has resources, what is good enough?
+ - Career perspective at a big company: ask existing senior SREs what are the key SRE tenets (eg: automation, observability, software engineering, communication, data-driven analysis to fact finding, ... 11). 3 Levels: experienced, expert, thought leader. How do you embody skills? How to apply the skills in projects? Review board looks at individual proposals for career advancements. 5/11 skills sufficient to demonstrate for Experienced SRE. Need all 11 for Expert SRE. Thought leaders work across org boundaries and work at executive level, strategic thinking, and innovation. Here is our definition of the SRE tenets with consideration for career path from technology _and_ HR for advancement, career plan, and compensation to compete with software engineering
+ -= Core Skills
+ -# System Thinking for Reliability
+ -# Software Engineering
+ -# Deploy and Release Services
+ -# Automation
+ -# Monitoring & Event Management
+ -# Troubleshooting
+ -# Data-driven / scientific approach to fact-finding, Mathematical and statistical models to assess trends.
+ -# Tools & Technology across the SDLC lifecycle
+ -# Security & Compliance
+ -# Organizational knowledge
+ -# Strong communication / collaboration / negotiation skills
+ -= Leadership Skills
+ -# Engage Thinking at Strategic Levels
+ -# Communicate on an Executive Level
+ -# Employ Cross Organizational Leadership
+ -# Employ Collaborative Influence
+ -# Develop Strategic Plans
+ -# Provide Solution Optimization
+ -# Innovate Breakthrough Solutions
+ -# Engaging in client projects on a leadership / trusted advisory level
+ - Another perspective: OS, Networking and network protocols, coding, and debugging.
+ - non-SRE background perspective: read about user-centric empathy but see people practicing low-level stuff.
+ - resource: SRE Interview Guide. https://github.com/mxssl/sre-interview-prep-guide
+
+Lack of observability (What is broken and why?)
+ - Traditional focus on monitoring hardware systems. 
+ - E.g.: lots of HTTP 500 response codes, how to preventively catch issues?
+ - E.g.: slow response on API call (could be anything such as Database, Network calls)
+ - look at user-level human outcomes to detect issues without knowing the specifics of how it is failing.
+ - Have APM to have events, traces and logs to log. Ben Treynor, choose how to spend your error budget and investigate.
+ - Symptom or cause? Alert on user-centric symptoms (how) or system-centric causes (why)?
+
+Lead SLO/SLI adoption and best practices for implementing them.
+ - Good Book:  Implementing Service Level Objectives https://www.oreilly.com/library/view/implementing-service-level/9781492076803/ https://sre.google/sre-book/service-level-objectives/
+ - SLOs are good for pushing back on tech debt and reliability
+ - Discussion of the SLOs is most important to articulate availability and reliability objectively
+ - alert at different burn rates for different time ranges
+
+Anyone using AI / LLM in your SRE activities, really?
+ - antipattern? AI good at looking at like patterns, SRE should be eliminating like patterns already
+ - Todd Underwood talk at SRECon from Anthropic. He was wrong every time! Generative AI: Beyond (Just) Hype https://www.usenix.org/conference/srecon24emea/presentation/underwood
+ - Keynote SREcon25 Americas: generated test system, test cases, test validation, test data all using GenAI. "Vibe SRE"
+ - chatgpt useful for developers to use as sounding board, but won't use in production for automation
+ - data leak outage for jwt token compromise. think about corporate data policy with respect to your AI implementation
