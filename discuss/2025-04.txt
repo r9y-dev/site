@@ -30,7 +30,7 @@ How to assess the skillset of an SRE (interview-focused).
  - resource: SRE Interview Guide. https://github.com/mxssl/sre-interview-prep-guide
 
 Lack of observability (What is broken and why?)
- - Traditional focus on monitoring hardware systems. 
+ - Traditional focus on monitoring hardware systems.
  - E.g.: lots of HTTP 500 response codes, how to preventively catch issues?
  - E.g.: slow response on API call (could be anything such as Database, Network calls)
  - look at user-level human outcomes to detect issues without knowing the specifics of how it is failing.
