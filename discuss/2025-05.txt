@@ -1,0 +1,21 @@
+Date and Time: 2025-05-13 12:30p ET
+
+Future of Reliability Career from a consulting devops, DevSecOps role similar to SRE. job prospects vs traditional engineering infrastructure roles?
+ - More focus on MLOps to learn what works well and poorly. careerwise: five-year future was unpredictable
+ - Ensure systems are running vs pipelines and infrastructure. Job prospects
+ - Reliability might be different: detect and minimize damage from hallucinations
+ - Scott Galway: security = boring but hard for AI enter soon due to regulations, like logistics, health, and security.
+ - Skill set: prompts for making agents that monitor availability.
+ - Fixing support contract bottlenecks creates perceived value (even if self-inflicted).
+
+Math Required for the top 10% of Reliability Engineering
+ - how much math knowledge do you need for infra, reliability, sre, devops to be best at it? Probability, calculus, discrete math, etc?
+ - Math PhD says: owning outcomes makes you best. Know: probability, calculus, linear algebra (for optimization: gradient descent, differentiate a surface), combinatorics. Model or simulate or find closed-form solution. More tools in your toolbox makes it more likely you have a useful tool. Top engineers get a paycheck, but so do others. Wisdom is in knowing what the packages do and whether they exist and are suitable.
+ - Carpentry, bar tending, grocery shop was good enough for work, but without explainability. Do the risk analysis. TLA+ for mathematical verification of software. https://leanpub.com/logic watch the author’s SRECon talks on youtube
+ - non-math person suggests: do a survey of math concepts, but you don't need to be expert in implementing them. Ask AI to apply the concepts to the problem.
+ - eg: computing the p99 of multiple systems with their own p99s. Distributions are not normal. Look into queuing theory.
+
+Quantifying the value of reliability. Are SREs able to communicate the value of uptime or negative value of downtime?
+ - do others value it when it's present, or only when it's absent? Do you have tools to measure or predict?
+ - SLI can be set at levels that do not affect users or are unnoticeable. Need budgets or targets to quantify business impact.
+ - Customer-specific values: revenue, dev productivity, infrastructure/people/training return on investment, customer trust (communicating problems clearly can minimize impacts of downtime)
