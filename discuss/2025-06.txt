@@ -1,0 +1,7 @@
+Date and Time: 2025-06-17 12:30p ET
+
+Incident Management and SRE career
+ - Automation
+ - Alert quality/volume pushback
+ - Using AI
+ - Security
