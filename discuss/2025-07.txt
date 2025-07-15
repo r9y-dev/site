@@ -1,0 +1,14 @@
+Date and Time: 2025-07-15 12:30p ET
+
+The Decline of SRE and the Rise of AI
+ - Sidney Dekker, Field Guide to Understanding Human Error https://www.amazon.com/Field-Guide-Understanding-Human-Error/dp/1472439058
+ - Reviewing AI-generated code is missing all the "tells" of coders who don't know what they are doing
+
+Configuration management at Scale
+ - frameworks, repo conventions, responsibilities, scope dependencies, relationships, different stakeholders. Change management process and workflow.
+ - eg: Zalando, each service gets its own account, budget limit. 90+ services. Automation 11 years ago. Assume they've come further since then.
+ - Service registry like Backstage with metadata about on-call, service functionality, SLOs, dependencies, source code, interventions, teams. Must be self-service and guide folks along golden paths.
+ - Started with arbitrary files in each git repo eg: CODEOWNERS.md, README.md, CONTRIBUTING.md, etc. with custom fields and one-off tooling. Had a Developer Experience team that needed to spend full time setting up Backstage and plugins and underlying company metadata sources.
+ - Looking for building blocks from companies at scale like Google for configuration management.
+ - Consider break-glass scenarios when automation cannot be overridden by manual intervention. Like that time Meta locked themselves out of their facilities!
+ - Story time: certificate rotated, but root changed, so mobile clients broke. The DNS provider could not restore the previous cert because it was too close to expiry. Could not deploy disconnected leaf cert because that's not how trust works. The resolution required political intervention between VPs of the company and the DNS provider to implement a business exception for the "too close to expiry policy", taking 8 hours to negotiate and deploy

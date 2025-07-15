@@ -9,13 +9,13 @@ header:
   overlay_image: /assets/images/gizmo.jpg
   actions:
     - label: "🗓️ Add to Google Calendar"
-      url: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyNDA5MTdUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL"
+      url: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyNTA3MTVUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL"
 ---
 #### We meet virtually, on the third Tuesday of every month.
 
-9:30am US Pacific / 12:30pm US Eastern [[Add to Google Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyNDA5MTdUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL)] [[Download .ics](r9y-discuss-invite.ics)]
+9:30am US Pacific / 12:30pm US Eastern [[Add to Google Calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N3F1c3N0YW1zNXFtcXZtbDQ2aDVkaXNiYnZfMjAyNTA3MTVUMTYzMDAwWiBjX3FpZXBhb2V2NmFwdWtjMzRvczd0cGhvbHVjQGc&tmsrc=c_qiepaoev6apukc34os7tpholuc%40group.calendar.google.com&scp=ALL)] [[Download .ics](r9y-discuss-invite.ics)]
 
-If a meeting is now in session, you can <a href="https://meet.google.com/pwv-tboq-chn" class="btn btn--info">Join with Google Meet</a>
+If a meeting is now in session, you can <a href="https://meet.google.com/pkh-fyba-ndu" class="btn btn--info">Join with Google Meet</a>
 
 ## About
 
@@ -41,6 +41,7 @@ This conversation is what you choose it to be! Participants are welcome to to pr
 
 ## Summaries of recent discussions
 
+* [2025-July](2025-07.txt)
 * [2025-June](2025-06.txt)
 * [2025-May](2025-05.txt)
 * [2025-April](2025-04.txt)
