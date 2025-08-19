@@ -1,0 +1,27 @@
+Date and Time: 2025-08-19 12:30p ET
+
+How do other teams manage projects vs ‘keep the lights on tasks’?
+- Always use a public ticketing board for intake to show interrupt-y support workload
+- With Kanban, KTLO workstream tickets remain open waiting on dependencies. Do you hold a kanban spot open or push the work back left one column?
+- Tradeoff of KTLO for feature progress. Are both queues complaining? If yes, then it might be balanced correctly. If only one queue complains, then you might be doing too much work on the other side.
+- Reliability itself is not the same as reliability feature work
+- Backpressure needs to be applied upstream, not in the overflow location
+- Is there a way to assign (average, stochastic) $ value to backlogged KTLO or feature tickets to use for balancing value? Similar to estimating impacts of incidents (past and projected)
+- Perhaps count counterfactual "if this feature ticket were completed, it would have prevented this incoming KTLO work that did arrive" so we should prioritize the feature ticket
+
+I find myself building a new software system to manage how we can handle all things uptime, cost, capacity, multiple platform teams for executives - do other people have this challenge of pulling data from multiple sources, ie. diff tech stacks, monitoring systems, etc?
+- bucketing work into 9 ITSM categories for reporting over time, similar to QA test coverage matrix, to automate it
+- Overengineering? Present mockup to validate business value with stakeholders. Is the information valuable to stakeholders?
+- Is the data worth building engineering to collect?
+- If previous data was insufficient, try and learn what decisions the stakeholders are trying to make (not data they think they need), and find out how much they are willing to expend to inform better decision making
+
+Reliability vs Resilience. We need resilience but how important is it actually (tradeoffs)?
+- Other risk factors may be greater than spare capacity. How do we talk to executives about tradeoffs?
+- At what point do cloud provider customers pay more money for elevated service? If service contract was 3% of spend then low pushback, if 10% then cost justifications required. So inferred 3-5% of cloud spend, not revenue. Reliability and resilience might not reflect their actual risk value.
+- KTLO retains customers, new features might bring new customers/revenue. Does business have a large upside or a large sustained user base? Look at renewals/churn for aggregate reliability effects on revenue (unlikely to attribute directly to specific incidents). Plug that leaky bucket; make it easier for new sales to be retained for increased lifetime customer value.
+- Adaptability comes from humans using the available tools to handle novel situations
+- Disaster preparedness lesson from physical tapes: always have multiple layers, not just a/b in case you mangle the first (only) backup copy while recovering.
+
+definitions of resilience and reliability
+- SRE software reliability/resilience definitions are reversed from electrical/mechanical language. Controls systems reliability: system operates when control is normal. Resilience is how to recover back to normal control. eg: RAID or similar N+2 system can survive up to two losses = reliability. After losing >2, how do you regain quorum (N) = resilience.
+- Casual definition: Reliability = fully automated (no human intervention). Resilience = human-applied skill and expertise to keep the system running (or restore it)
