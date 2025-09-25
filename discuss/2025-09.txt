@@ -1,0 +1,29 @@
+Date and Time: 2025-09-16 12:30p ET
+
+Observability best practices in AI applications -- Traces and OTEL Open Telemetry
+- measure numerical latency PLUS traces when using LLMs to evaluate other models
+- Maybe LangSmith? Patterns like one master trace for all agents with subtraces per agent or workflow.
+- Perhaps this is so new that it is all experimental.
+- Tacoma SciPy keynote emphasized Observability, which requires evaluating prompts. Connect eg: some test data to response output and evaluate the model at a point in time on some dimensions.
+- LLMs are non-deterministic, so use other LLM models to evaluate test output and avoid confirmation bias from the model itself. 
+
+Alert inventory: coverage and adding new alerts? B2B + infrastructure
+- How do others keep track of the alert coverage, anyone have a matrix of all things that need to be alerted on. 
+- How do you surface new alerts vs many production exceptions that are not prioritized to be fixed
+- Tracecat, opensource workflow for alerts (similar to Tines). Pivot from security to SRE.
+- Suggestion: usable alerts, context sensitive to each app business need
+- Challenge: "obviousness" is hindsight bias. Conduct a recurring operational review of recent alerts to understand brittle system areas. [Paige Cruz conference talk: SREcon23 Americas Alert Triage Hour of Power] (https://www.youtube.com/watch?v=c8uRsQPeg_g)
+
+NewRelic Integrations and Practices: metrics scraping, log collection/ alerting
+- how to turn metrics across containers and cloud into analyzable or actionable tooling?
+- NewRelic grew up in rails and moved to java. Datadog started in containerized microservices, probably ahead in tracing. Market says Datadog was the market winner.
+- David Woods thought New Relic demo's most interesting capabilities was not AI, but NRQL (query language)
+- Azure's KQL similar for extracting business relevance.
+- Took time for developers to parse the alerts.
+- Log Rocket has video playback that shows mobile app exceptions.
+- Caveat emptor: beware impersonator Anthropologie apps!
+
+AWS Managed Grafana in 2025
+- limited APM procurement options; so Grafana is easiest. Any user experience?
+- The OTEL is in the logging product, while Grafana is only the dashboard part.
+- Is prometheus still necessary in the AWS minimal usage? Or can you get some data for free through EKS?
