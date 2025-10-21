@@ -1,0 +1,20 @@
+Date and Time: 2025-10-21 12:30p ET
+
+AWS had an outage. It was DNS. https://health.aws.amazon.com/health/status?path=open-issues
+* Is 2h a long time or short time to diagnose DNS? The cherry-blossom DNS meme https://www.cyberciti.biz/humour/a-haiku-about-dns/ suggests that diagnosing DNS as a contributor is frequently difficult.
+* As a customer, public communications is more reassuring that there is a reasonable incident process at work versus silence until the after action report.
+* Update frequency of an hour or less is impressive from a drafting and publishing process cycle time perspective. We believe AWS coordinates via a giant video-conference (Chime) with hundreds of (mostly silent) participants.
+* Slack had an unusually adept customer care team who led incident response public/customer-facing communications vs engineering-led communication process. Public analysis reports improved when responsibility moved from engineering-led to customer care-led authorship. Public Slack blog is viewed as a recruiting tool, so that was individual engineer side-work.
+* AWS has solved all its simple problems, so these emergent issues are the most complex ones. For example, follow-on trouble spinning up EC2 spot instances while throttled. This affects follow-the-sun workday scale up/down work. The control plane is just as critical as the data plan for reliability.
+** consider a big red button to stop auto-downscaling during incidents
+
+Structural success for incident management (preparation, training, response, and learning from incidents)
+* If executives believe in Safety I that errors are outliers and rare and success is normal, then it's a race to the bottom
+* When you are responding to an incident you have already blown your 9s of reliability. How do you get the most out of outages?
+* Former Slack SLA credited enterprise customers with 100x SLA violation in automated invoicing to provide a clear financial incentive for quick remediation
+
+Desire to comment after big public outages while avoiding speculation. What else can be said?
+* You can describe observed adaptations and cascading failures in your own systems.
+* Which system capabilities did you consider temporarily disabling to reduce the impact on your system?
+* Someone described the ability to post a banner (notifying customers of outage impacts) as a core capability during incidents.
+Someone else observed that their feature flagging system was unavailable during the outage, so systems started with "defaults". Were those defaults chosen for "normal" operations, or emergency rescue minimum "safe" operations? Product managers usually build features on top of existing capabilities, without consideration as to which ones are critical (eg: displaying bank transactions) and which ones are ancillary (eg: bank chat)
