@@ -1,0 +1,24 @@
+Date and Time: 2025-11-18 12:30p ET
+
+Do you find you need customer contextual error KPIs for executives that get calls from important customers but your availability shows your apps don’t have ‘obvious issues’ that may not be readily available in your APM - what do you do about that. What APM do you use?
+* Alex Hidalgo SLOs (service level objectives) https://www.alex-hidalgo.com/the-slo-book
+* SREs must provide the business context for translating technical errors into customer or business concerns or experiences
+
+Cloudflare outage today https://www.cloudflarestatus.com/incidents/8gmgl950y3h7
+* Downdetector showed everyone having a problem (perhaps everyone is using Cloudflare). Cloudflare fronts downdetector.com!
+* Grafana dashboards depend on Cloudflare Zero Trust for auth, so unable to auth to see dashboards during CF outage
+* Retro on Azure’s Front Door outage on Oct 29 https://aka.ms/air/YKYN-BWZ (46 minute video), Azure Portal blocked during CDN provider outage.
+* Consider alternatives for when critical control plane dependencies are unavailable. Disaster Recovery does not need to provide full capabilities across multiple-cloud-providers.
+* STPA analysis of AWS outage revealed hindsight bias and lack of feedback loops for components https://entropicthoughts.com/aws-dynamodb-outage-stpa
+
+How to you handle vendor/partner outages
+* have an alternative provider on standby. requires integration (one example took 2y to build) and they have different feature sets and maintenance, product development burden
+* plan to escalate to CTO or VP to get policy exemptions
+* consider actively sunsetting obsolete products because vendor support has also been sunset or eroded. How do you verify that support will be useful when you have an incident?
+* Incidents with vendors talk at SRECON 2023 https://www.usenix.org/conference/srecon23emea/presentation/butt
+
+How do you balance the weekend auto scale / up scale and cloud provider resources not being as available anymore in particular regions (AWS Monday morning may not have resources eg: US-East-2)
+* autoscaling is part of the control plane which might have lower reliability expectations
+* thundering herd of similar customers escaping internet-wide catastrophe
+* Consider the cost to buy reserve capacity instead of spot capacity that might not be available during emergencies with correlated risk
+* Talk about risk at annual strategic planning (budgeting, major initiatives), but also every time product management proposes a new feature or capability: how do you want the rest of the system to function WHEN the new feature isn't working (correctly or quickly)? The risk might be accepted, but at least the effect and experience is somewhat anticipated.
