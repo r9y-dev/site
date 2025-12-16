@@ -1,0 +1,32 @@
+Date and Time: 2025-11-16 12:30p ET
+
+Does it seem like we’re seeing more big outages? (AWS https://youtu.be/YZUNNzLDWb8, Azure on Oct 29, 2025 Retro video: 46m https://youtu.be/PHvIYrWkAJU, Cloudflare Nov 18, 2025 https://blog.cloudflare.com/18-november-2025-outage/)
+* Not surprised; there are more things on the internet.
+* Unfalsifiable claim. Counterfactuals not available. Looking harder or "reality"?
+* This is just a random cluster of incidents. Centralized provider incident blast radius is getting larger.
+* A cloud provider region was a major hotspot because the cloud provider config default was fixed on that region, not randomized. This is still the early days of cloud; hopefully it will get better if people spread out their risk portfolio. More failures, but less impactful outcomes.
+* More demand for SREs or more demand for reliability outcomes? Unfortunately (for SREs) not correlated.
+* In one analogy, there are lots of developers (jedi) but very few SRE training opportunities (sith).
+* AWS warns of insufficient capacity limits (Insufficient Capacity Exception, no or low servers of a class available). It's not just one region or provider, it is many regions and all providers and economics and physics. There are finite resource constraints in the universe for server capacity. Please build smaller components so they can fit in more small places, rather than large components that can only run in big places
+
+LLM provider outages, eg: OpenAI 429 responses. Load shedding may not be acceptable AI responses for customers.
+* Anthropic quality degradation that happened recently: https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
+* also consider the "quality" of the responses as "outage" from the customer side. eg: inappropriate language, erroneous answers, security leaks, slow response time. Use other AIs or regex monitoring "quality" of responses.
+* Agent observability suites for prediction are hit or miss
+
+AI SRE - anyone look into these, ie. Resolve.ai A command center run by humans seems to forget information. Can it work to use computers or LLMs?
+* Out of the box, not for all environments. Customization is required. Will require forward-deployed engineers to customize for your environment. Two kinds of vendors: does it work in your environment or not, or expect to customize to meet your environment. Expect another 6-12 months of vendor BS and waiting for dozens of competing vendors to run out of VC patience/funding.
+* Maybe use AI as natural language processor as a front end for querying observability.
+* How is SRE AI different from Claude agent in kubectl? 25% overlap with basic AI tools, but products have more guardrails against misses. Narrowly constrained problem space might be more attainable (eg: Salesforce-specific environment). 
+* Is knowledge from an environment generalizable across environments. Is the knowledge graph computer generated or can humans seed information?
+* Topic maps include relationships between relationships which allows complex knowledge graphs. Relationships between relationships dwarf nouns in human-understood systems, but it is still challenging for humans to understand these graphs.
+
+Show and Tell - https://github.com/stevemcghee/go-to-production how to enumerate the r9y journey, bit by bit.
+* warning: vibecoded.
+* goals: implement far too much reliability on a toy, see how much complexity/cost that really is, what you actually get from it at different phases in the evolution of the system
+** Infrastructure > Code: For every 1 line of application code, we wrote 2 lines of Infrastructure as Code and 3.5 lines of Documentation.
+* read what happened using git tags https://github.com/stevemcghee/go-to-production#how-it-works-time-travel
+* eg: payload vs launch services in Titan missile. 1:5 cost ratio.
+
+Show and Tell - https://github.com/stevemcghee/imagine-travel – an (ADK) Agent, intended to be for playing with o11y options (not done yet)
+* Sample of a whole app, not just a single connection. This one has observability threaded through, plus self-verification of agent output.
