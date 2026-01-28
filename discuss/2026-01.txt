@@ -1,0 +1,38 @@
+Date and Time: 2026-01-20 12:30p ET
+
+Hype for AI SRE agent: “SRE” seems to mean somebody who is doing the incident response
+* Incidents are only part of the job, even a very small part
+
+SRE confuses people
+* because it is a safety role. Has more to do with tracking what is changing in the system. That doesn’t show up in day-to-day. Demands a lot of independence… making your own goals about other people’s goals.
+* Understanding the graphs. What does normal look like?
+
+Experience report for entry into SRE was Observability: Biggest KPI SRE are measured by are MTTR
+* MTT detect (improved with good dashboards)
+* MTT escalate (targeted escalation to The Right Person, knowing who can fix it)
+* MTT fix (automation)
+* Blameless retro most powerful tool
+* Annotate time series data with deployments
+
+Like athletes training. We only see the games, not the practices
+
+Are SLOs the right way to look at this stuff?
+* If we look for cliffs in the timeseries graph
+
+Different experience of SRE
+* SRE organization had authority to halt deployments or remove apps from production to close vulnerabilities
+* Being consulted for the architecture helps reduce incidents early
+
+Chaos engineering approach
+* Many companies want reliability but nevertheless do not invest in it
+* Has always been difficult to figure out where the audience or market is for SRE tooling.
+* People understand they need reliability
+* Now trying to build a tool to get into the developers deploy path without being a block
+* Reliability appears as an interruption in the path to getting new functions to customers
+* Can we present context to developers about impact of code decisions on production
+
+Sometimes it’s a bigger payoff to listen to what the system is doing instead of creating more stuff
+
+Reliability needs to be in the design. Can’t add it on later.
+* No leader election system, then you cannot have a no-downtime deployment
+
