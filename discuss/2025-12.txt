@@ -1,4 +1,4 @@
-Date and Time: 2025-11-16 12:30p ET
+Date and Time: 2025-12-16 12:30p ET
 
 Does it seem like we’re seeing more big outages? (AWS https://youtu.be/YZUNNzLDWb8, Azure on Oct 29, 2025 Retro video: 46m https://youtu.be/PHvIYrWkAJU, Cloudflare Nov 18, 2025 https://blog.cloudflare.com/18-november-2025-outage/)
 * Not surprised; there are more things on the internet.
