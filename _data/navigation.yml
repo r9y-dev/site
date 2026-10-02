@@ -1,7 +1,11 @@
 main:
+  - title: "Map"
+    url: "https://map.r9y.dev/beck/map.html"
   - title: "Discuss"
     url: "/discuss"
   - title: "Watch"
     url: "/watch"
   - title: "Chat"
     url: "/chat"
+  - title: "Code"
+    url: "https://github.com/r9y-dev"
