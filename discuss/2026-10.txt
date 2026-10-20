@@ -1,0 +1,23 @@
+Date and Time: 2026-10-20 12:30p ET
+
+What is a good way to measure the reliability of dozens of microservices?
+* https://www.alex-hidalgo.com/the-slo-book
+* SLOs (service level objectives) on the user-facing capabilities.
+* Set an error budget and fix it only when the error budget is exceeded. How much are you willing to invest in reliability?
+* SLOs assume you have observability that is clean (enough).
+* Avoid the trap of creating SLOs around metrics just because they are easily available (eg: machine level metrics like CPU, disk, network IO)
+* Do watch metrics for changes and correlate to trailing user experiences, but don't alert on them.
+
+Observability ontology (Netflix recent blog post) https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf
+* rare outside of hyperscalers (or maybe just Netflix)
+* different groups care about different slices and sets of aspects in a combinatorial way
+* useful for setting context for meetings between humans
+
+What are the best tools and practices for observability in production systems? How do you decide which tools to use for logs, metrics, tracing, and alerting?
+* No single tool is "best." You probably want to ensure your agents output Open Telemetry to keep you vendor agnostic
+* Start with what is already available perhaps from your cloud provider to see what matches your philosophy
+* Datadog capable but expensive, opinionated
+* Grafana lets you make the dashboards, but you need to maintain
+* Engineering tradeoffs just like writing code. Write down your business-specific requirements and constraints and values in order to make a comparison for you.
+* Ensure the vendor's ontology matches your business's structure or at least is compatible to support your needs
+* If you ask an LLM, then hopefully you've defined your ontology for it, otherwise you might accidentally compound the problem into a telephone game
