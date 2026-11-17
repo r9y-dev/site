@@ -1,0 +1,19 @@
+Date and Time: 2026-11-17 12:30p ET
+
+What could a world without code review look like?
+* What is the purpose of code review? Find errors and protect the existing system, or understand the changing system?
+* Is failure cheap and repairing (with AI) in production more efficient than code review and full testing in advance?
+* SLOs and error budgets are the allowable amount of failure
+* What are scalable ways of doing testing as an alternative to code review? Chaos testing, mutation testing, coverage?
+* See Nancy Levenson, STPA control system analysis for one way to think about it
+* Business metrics observability are a trailing reporting mechanism, not a control mechanism guiding repair or remediation
+* Balance potential future issues against current issues
+* It's hard to understand how to intervene in the system. Feedback loops are long and unclear in a complex system.
+* SREs have experience with managing risk of black box systems
+* Maybe retrospectives and cynefin empirical adjustments are cheaper/faster than speculative proactive work in non-safety critical systems.
+* How to think about risk systematically?
+* Code reviews suggest what the components should be doing, Incident reviews show how the whole system was actually behaving
+* AWS emulator generated local testing on components could be cheap enough and adaptive enough to work.
+* Orgs/individuals will generate more code with agents than before. Risks of black swans increase due to increase in change volume. Risk analysis and testing need to keep up with rate of change.
+* How do you make the argument with data? Where is the safety boundary? https://mitmgmtfaculty.mit.edu/jsterman/nobodyevergetscredit/
+* Benchmarks like DORA were useful, but interpreted/weaponized. What are peer comparisons for unicorns (you're probably not Google)? Previous self, teams within the same company?
